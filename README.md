@@ -36,16 +36,6 @@ Este projeto demonstra como usar o **ESP32** para controlar um LED por meio de u
 
 ---
 
-## 📂 **Organização do Projeto**
-```
-ESP32_SPIFFS/
-├── spiffs.cpp         # Código-fonte principal
-├── platformio.ini     # Configurações do PlatformIO (se usar)
-└── README.md          # Documentação do projeto
-```
-
----
-
 ## 🚀 **Como Usar**
 
 ### **1. Configurar o Ambiente de Desenvolvimento**
@@ -70,13 +60,6 @@ O projeto usa um servidor **NTP** para sincronizar a data e a hora. Aqui está u
 2024-11-27 14:35:15 - LED desligado
 ```
 
----
-
-## 🌐 **Servidor NTP Utilizado**
-- **Host:** `pool.ntp.org`
-- Sincroniza a data e a hora automaticamente na inicialização do ESP32.
-
----
 
 ## 🛠️ **Funcionalidades Futuras**
 - Exibição de logs via servidor web.
@@ -89,17 +72,3 @@ O projeto usa um servidor **NTP** para sincronizar a data e a hora. Aqui está u
 Descreva ou desenhe como o projeto funciona:
 - **Botão pressionado**: O LED alterna entre ligado/desligado.
 - **Reinício do ESP32**: O LED recupera o último estado salvo.
-
----
-
-## 🤝 **Contribuições**
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma **issue** ou enviar um **pull request**.
-
----
-
-## 📄 **Licença**
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-Com este `README.md`, qualquer pessoa pode entender e configurar seu projeto facilmente. Se precisar de mais ajustes, é só avisar! 😊
